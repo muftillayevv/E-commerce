@@ -8,48 +8,86 @@
     <link rel="stylesheet" href="css/home.min.css" />
   </head>
   <body>
-    <header class="header">
+    <header>
       <div class="header__container">
-        <div class="header__logo--side">
-          <a href="home.html" class="logo__box">
-            <img src="./images/home/web-site logo.svg" alt="" />
-            <img
-              class="header__disappear--img"
-              src="./images/home/Северяночка.svg"
-              alt=""
-            />
-          </a>
-          <div class="search__box">
-            <button class="show__category">
+        <div class="header__nav">
+          <div class="header__logo">
+            <a href="./home.html">
+              <img
+                class="logo__part"
+                src="./images/home/web-site logo.svg"
+                alt=""
+              />
+              <img
+                class="logo__part__disappear"
+                src="./images/home/Северяночка.svg"
+                alt=""
+              />
+            </a>
+          </div>
+          <div class="header__form">
+            <button>
               <img src="./images/home/menu.svg" alt="" />
-              <a href="">Каталог</a>
+              <a href="./category.html">Каталог</a>
             </button>
-            <div class="search__product">
-              <input type="text" placeholder="Найти товар  " />
+            <div class="header__input">
+              <input type="text" placeholder="Найти товар" />
               <img src="./images/home/search.svg" alt="" />
             </div>
           </div>
+
+          <!-- <div class="header__nav--logo">
+            <div class="header__nav--logo__img">
+              <img src="./images/home/web-site logo.svg" alt="" />
+              <img src="./images/home/Северяночка.svg" alt="" />
+            </div>
+            <div class="header__nav--logo__form">
+              <button>
+                <img src="./images/home/menu.svg" alt="" />
+                <a href="./category.html">Каталог</a>
+              </button>
+            </div>
+            <div class="header__nav--logo__input">
+              <input type="text" placeholder="Найти товар" />
+              <img src="./images/home/search.svg" alt="" />
+            </div>
+          </div> -->
         </div>
-        <div class="header__logo--features">
-          <div class="features__box">
+        <div class="header__features">
+          <div class="header__features--box">
             <div class="features__card">
-              <img src="./images/home/Frame_like.svg" alt="" />
+              <img
+                src="./images/home/Frame_like.svg"
+                alt=""
+                width="24"
+                height="24"
+              />
               <p>Избранное</p>
             </div>
             <div class="features__card">
-              <img src="./images/home/Frame_box.svg" alt="" />
+              <img
+                src="./images/home/Frame_box.svg"
+                alt=""
+                width="24"
+                height="24"
+              />
               <p>Продукты</p>
             </div>
             <div class="features__card">
-              <img src="./images/home/Frame_korzinka.svg" alt="" />
+              <img
+                src="./images/home/Frame_korzinka.svg"
+                alt=""
+                width="24"
+                height="24"
+              />
               <p>Корзина</p>
             </div>
           </div>
-          <div class="fetures__account">
+          <div class="features__account">
             <img src="./images/home/avatar.svg" alt="" />
             <p>Алексей</p>
             <img
-              class="account__disappear"
+              class="features__disappear--img"
               src="./images/home/chevron-down.svg"
               alt=""
             />
@@ -57,421 +95,355 @@
         </div>
       </div>
     </header>
+
     <main>
-      <section class="hero">
-        <div class="hero__container">
-          <div class="hero__image">
-            <img src="./images/home/img.png" alt="" />
-          </div>
-          <div class="hero__title">
-            <h3>Доставка бесплатно от 1000 ₽</h3>
-          </div>
-        </div>
-      </section>
-      <section class="news discount">
-        <div class="news__container">
-          <div class="news__title">
-            <div class="news__heading">
-              <p>Покупали раньше</p>
+      <section>
+        <div class="hero">
+          <div class="hero--container">
+            <div class="hero--img">
+              <img
+                src="./images/home/img.png"
+                alt=""
+                width="303"
+                height="202"
+              />
             </div>
-            <div class="news__link">
-              <a href="./allProducts.html">Все продукты</a>
-              <img src="./images/home/chevron-right.png" alt="" />
-            </div>
-          </div>
-          <div class="news__box">
-            <div class="news__card">
-              <div class="card__image">
-                <img src="./images/home/discount__img.png" alt="" />
-              </div>
-              <div class="card__text">
-                <div class="text--box">
-                  <div class="text__caontainer">
-                    <h6>44,50 ₽</h6>
-                    <p class="card__passage">С картой</p>
-                  </div>
-                  <div class="text__caontainer">
-                    <h6>44,50 ₽</h6>
-                    <p class="card__passage">С картой</p>
-                  </div>
-                </div>
-                <p class="news__passage">Г/Ц Блинчики с мясом вес, Россия</p>
-                <img src="./images/home/rating.png" alt="" />
-                <button>В корзину</button>
-              </div>
-            </div>
-            <div class="news__card">
-              <div class="card__image">
-                <img src="./images/home/discount__img.png" alt="" />
-              </div>
-              <div class="card__text">
-                <div class="text--box">
-                  <div class="text__caontainer">
-                    <h6>44,50 ₽</h6>
-                    <p class="card__passage">С картой</p>
-                  </div>
-                  <div class="text__caontainer">
-                    <h6>44,50 ₽</h6>
-                    <p class="card__passage">С картой</p>
-                  </div>
-                </div>
-                <p class="news__passage">Г/Ц Блинчики с мясом вес, Россия</p>
-                <img src="./images/home/rating.png" alt="" />
-                <button>В корзину</button>
-              </div>
-            </div>
-            <div class="news__card">
-              <div class="card__image">
-                <img src="./images/home/discount__img.png" alt="" />
-              </div>
-              <div class="card__text">
-                <div class="text--box">
-                  <div class="text__caontainer">
-                    <h6>44,50 ₽</h6>
-                    <p class="card__passage">С картой</p>
-                  </div>
-                  <div class="text__caontainer">
-                    <h6>44,50 ₽</h6>
-                    <p class="card__passage">С картой</p>
-                  </div>
-                </div>
-                <p class="news__passage">Г/Ц Блинчики с мясом вес, Россия</p>
-                <img src="./images/home/rating.png" alt="" />
-                <button>В корзину</button>
-              </div>
-            </div>
-            <div class="news__card">
-              <div class="card__image">
-                <img src="./images/home/discount__img.png" alt="" />
-              </div>
-              <div class="card__text">
-                <div class="text--box">
-                  <div class="text__caontainer">
-                    <h6>44,50 ₽</h6>
-                    <p class="card__passage">С картой</p>
-                  </div>
-                  <div class="text__caontainer">
-                    <h6>44,50 ₽</h6>
-                    <p class="card__passage">С картой</p>
-                  </div>
-                </div>
-                <p class="news__passage">Г/Ц Блинчики с мясом вес, Россия</p>
-                <img src="./images/home/rating.png" alt="" />
-                <button>В корзину</button>
-              </div>
+            <div class="hero--title">
+              <h3>Доставка бесплатно от 1000 ₽</h3>
             </div>
           </div>
         </div>
       </section>
-      <section class="news bought">
-        <div class="news__container">
-          <div class="news__title">
-            <div class="news__heading">
-              <p>Новинки</p>
-            </div>
-            <div class="news__link">
-              <a href="./allProducts.html">Все продукты</a>
-              <img src="./images/home/chevron-right.png" alt="" />
-            </div>
-          </div>
-          <div class="news__box">
-            <div class="news__card">
-              <div class="card__image">
-                <img src="./images/home/news__img.png" alt="" />
+      <div class="main__sections__container">
+        <section class="discount">
+          <div class="discount__container">
+            <div class="discount__title">
+              <div class="discount__title--heading">
+                <h6>Акции</h6>
               </div>
-              <div class="card__text">
-                <div class="text--box">
-                  <div class="text__caontainer">
-                    <h6>44,50 ₽</h6>
-                    <p class="card__passage">С картой</p>
-                  </div>
+              <div class="discount__title--link">
+                <a href="./allProducts.html"> Все продукты </a>
+                <img src="./images/home/chevron-right.png" alt="" />
+              </div>
+            </div>
+            <div class="discount__box">
+              <div class="discount__card">
+                <div class="discount__card--img">
+                  <img src="./images/home/discount__img.png" alt="" />
                 </div>
-                <p class="news__passage">Г/Ц Блинчики с мясом вес, Россия</p>
-                <img src="./images/home/rating.png" alt="" />
-                <button>В корзину</button>
-              </div>
-            </div>
-            <div class="news__card">
-              <div class="card__image">
-                <img src="./images/home/news__img.png" alt="" />
-              </div>
-              <div class="card__text">
-                <div class="text--box">
-                  <div class="text__caontainer">
-                    <h6>44,50 ₽</h6>
-                    <p class="card__passage">С картой</p>
-                  </div>
+                <div class="discount__card--paying">
+                  <p class="paying__bold--style">
+                    44,50 ₽ <br />
+                    <span>С картой</span>
+                  </p>
+                  <p class="paying__thick--style">
+                    50,50 ₽ <br />
+                    <span>Обычная</span>
+                  </p>
                 </div>
-                <p class="news__passage">Г/Ц Блинчики с мясом вес, Россия</p>
-                <img src="./images/home/rating.png" alt="" />
-                <button>В корзину</button>
-              </div>
-            </div>
-            <div class="news__card">
-              <div class="card__image">
-                <img src="./images/home/news__img.png" alt="" />
-              </div>
-              <div class="card__text">
-                <div class="text--box">
-                  <div class="text__caontainer">
-                    <h6>44,50 ₽</h6>
-                    <p class="card__passage">С картой</p>
-                  </div>
+                <div class="discount__card--text">
+                  <p>Г/Ц Блинчики с мясом вес, Россия</p>
                 </div>
-                <p class="news__passage">Г/Ц Блинчики с мясом вес, Россия</p>
-                <img src="./images/home/rating.png" alt="" />
-                <button>В корзину</button>
-              </div>
-            </div>
-            <div class="news__card">
-              <div class="card__image">
-                <img src="./images/home/discount__img.png" alt="" />
-              </div>
-              <div class="card__text">
-                <div class="text--box">
-                  <div class="text__caontainer">
-                    <h6>44,50 ₽</h6>
-                    <p class="card__passage">С картой</p>
-                  </div>
+                <div class="discount__card--rating">
+                  <img src="./images/home/rating.png" alt="" />
                 </div>
-                <p class="news__passage">Г/Ц Блинчики с мясом вес, Россия</p>
-                <img src="./images/home/rating.png" alt="" />
-                <button>В корзину</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="news">
-        <div class="news__container">
-          <div class="news__title">
-            <div class="news__heading">
-              <p>Покупали раньше</p>
-            </div>
-            <div class="news__link">
-              <a href="./allProducts.html">Все продукты</a>
-              <img src="./images/home/chevron-right.png" alt="" />
-            </div>
-          </div>
-          <div class="news__box">
-            <div class="news__card">
-              <div class="card__image">
-                <img src="./images/home/news__img.png" alt="" />
-              </div>
-              <div class="card__text">
-                <div class="text--box">
-                  <div class="text__caontainer">
-                    <h6>44,50 ₽</h6>
-                    <p class="card__passage">С картой</p>
-                  </div>
+                <div class="discount__card--btn">
+                  <button>В корзину</button>
                 </div>
-                <p class="news__passage">Г/Ц Блинчики с мясом вес, Россия</p>
-                <img src="./images/home/rating.png" alt="" />
-                <button>В корзину</button>
               </div>
-            </div>
-            <div class="news__card">
-              <div class="card__image">
-                <img src="./images/home/news__img.png" alt="" />
-              </div>
-              <div class="card__text">
-                <div class="text--box">
-                  <div class="text__caontainer">
-                    <h6>44,50 ₽</h6>
-                    <p class="card__passage">С картой</p>
-                  </div>
+              <div class="discount__card">
+                <div class="discount__card--img">
+                  <img src="./images/home/discount__img.png" alt="" />
                 </div>
-                <p class="news__passage">Г/Ц Блинчики с мясом вес, Россия</p>
-                <img src="./images/home/rating.png" alt="" />
-                <button>В корзину</button>
-              </div>
-            </div>
-            <div class="news__card">
-              <div class="card__image">
-                <img src="./images/home/news__img.png" alt="" />
-              </div>
-              <div class="card__text">
-                <div class="text--box">
-                  <div class="text__caontainer">
-                    <h6>44,50 ₽</h6>
-                    <p class="card__passage">С картой</p>
-                  </div>
+                <div class="discount__card--paying">
+                  <p class="paying__bold--style">
+                    44,50 ₽ <br />
+                    <span>С картой</span>
+                  </p>
+                  <p class="paying__thick--style">
+                    50,50 ₽ <br />
+                    <span>Обычная</span>
+                  </p>
                 </div>
-                <p class="news__passage">Г/Ц Блинчики с мясом вес, Россия</p>
-                <img src="./images/home/rating.png" alt="" />
-                <button>В корзину</button>
-              </div>
-            </div>
-            <div class="news__card">
-              <div class="card__image">
-                <img src="./images/home/discount__img.png" alt="" />
-              </div>
-              <div class="card__text">
-                <div class="text--box">
-                  <div class="text__caontainer">
-                    <h6>44,50 ₽</h6>
-                    <p class="card__passage">С картой</p>
-                  </div>
+                <div class="discount__card--text">
+                  <p>Г/Ц Блинчики с мясом вес, Россия</p>
                 </div>
-                <p class="news__passage">Г/Ц Блинчики с мясом вес, Россия</p>
-                <img src="./images/home/rating.png" alt="" />
-                <button>В корзину</button>
+                <div class="discount__card--rating">
+                  <img src="./images/home/rating.png" alt="" />
+                </div>
+                <div class="discount__card--btn">
+                  <button>В корзину</button>
+                </div>
+              </div>
+              <div class="discount__card">
+                <div class="discount__card--img">
+                  <img src="./images/home/discount__img.png" alt="" />
+                </div>
+                <div class="discount__card--paying">
+                  <p class="paying__bold--style">
+                    44,50 ₽ <br />
+                    <span>С картой</span>
+                  </p>
+                  <p class="paying__thick--style">
+                    50,50 ₽ <br />
+                    <span>Обычная</span>
+                  </p>
+                </div>
+                <div class="discount__card--text">
+                  <p>Г/Ц Блинчики с мясом вес, Россия</p>
+                </div>
+                <div class="discount__card--rating">
+                  <img src="./images/home/rating.png" alt="" />
+                </div>
+                <div class="discount__card--btn">
+                  <button>В корзину</button>
+                </div>
+              </div>
+              <div class="discount__card">
+                <div class="discount__card--img">
+                  <img src="./images/home/discount__img.png" alt="" />
+                </div>
+                <div class="discount__card--paying">
+                  <p class="paying__bold--style">
+                    44,50 ₽ <br />
+                    <span>С картой</span>
+                  </p>
+                  <p class="paying__thick--style">
+                    50,50 ₽ <br />
+                    <span>Обычная</span>
+                  </p>
+                </div>
+                <div class="discount__card--text">
+                  <p>Г/Ц Блинчики с мясом вес, Россия</p>
+                </div>
+                <div class="discount__card--rating">
+                  <img src="./images/home/rating.png" alt="" />
+                </div>
+                <div class="discount__card--btn">
+                  <button>В корзину</button>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-      </section>
-      <section class="program">
-        <div class="program__container">
-          <div class="program__title">
-            <h3>Специальные предложения</h3>
-          </div>
-          <div class="program__box">
-            <div class="program__card">
-              <div class="pro__card--text">
-                <h3>Оформите карту «Северяночка»</h3>
-                <p>И получайте бонусы при покупке в магазинах и на сайте</p>
+        </section>
+        <section class="discount news">
+          <div class="discount__container">
+            <div class="discount__title">
+              <div class="discount__title--heading">
+                <h6>Новинки</h6>
               </div>
-              <div class="pro__card--img">
-                <img src="./images/home/Карта лояльности-10 1.png" alt="" />
+              <div class="discount__title--link">
+                <a href="./allProducts.html"> Все продукты </a>
+                <img src="./images/home/chevron-right.png" alt="" />
               </div>
             </div>
-            <div class="program__card modify">
-              <div class="pro__card--text">
-                <h3>Покупайте акционные товары</h3>
-                <p>И получайте вдвое больше бонусов</p>
+            <div class="discount__box">
+              <div class="discount__card">
+                <div class="discount__card--img">
+                  <img src="./images/home/img.svg" alt="" />
+                </div>
+                <div class="discount__card--paying">
+                  <p class="paying__bold--style">
+                    44,50 ₽ <br />
+                    <span>С картой</span>
+                  </p>
+                </div>
+                <div class="discount__card--text">
+                  <p>Комбайн КЗС-1218 «ДЕСНА-ПОЛЕСЬЕ GS12»</p>
+                </div>
+                <div class="discount__card--rating">
+                  <img src="./images/home/rating.png" alt="" />
+                </div>
+                <div class="discount__card--btn">
+                  <button>В корзину</button>
+                </div>
               </div>
-              <div class="pro__card--img">
-                <img src="./images/home/73 1.png" alt="" />
+              <div class="discount__card">
+                <div class="discount__card--img">
+                  <img src="./images/home/img.svg" alt="" />
+                </div>
+                <div class="discount__card--paying">
+                  <p class="paying__bold--style">
+                    44,50 ₽ <br />
+                    <span>С картой</span>
+                  </p>
+                </div>
+                <div class="discount__card--text">
+                  <p>Комбайн КЗС-1218 «ДЕСНА-ПОЛЕСЬЕ GS12»</p>
+                </div>
+                <div class="discount__card--rating">
+                  <img src="./images/home/rating.png" alt="" />
+                </div>
+                <div class="discount__card--btn">
+                  <button>В корзину</button>
+                </div>
               </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="location">
-        <div class="location__container">
-          <div class="location__title">
-            <h3>Наши магазины</h3>
-          </div>
-          <div class="location__filial">
-            <button>п.Щельяюр</button>
-            <button>д.Вертеп</button>
-            <button>с.Краснобор</button>
-            <button>с.Краснобор</button>
-          </div>
-          <div class="location__card">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24024.451281981324!2d65.57051460880876!3d39.03833861490008!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f4e914dabe7047d%3A0xb4baab6b6454cc9b!2sKasan%2C%20Uzbekistan!5e0!3m2!1sen!2s!4v1690805463895!5m2!1sen!2s"
-              width="1208"
-              height="354"
-              style="border: 0"
-              allowfullscreen=""
-              loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"
-            ></iframe>
-          </div>
-        </div>
-      </section>
-      <section class="articles">
-        <div class="articles__container">
-          <div class="articles__title">
-            <h6>Статьи</h6>
-            <div class="articles__link">
-              <a href="./allProducts.html">Все статьи</a>
-              <img src="./images/home/chevron-right.png" alt="" />
-            </div>
-          </div>
-          <div class="articles__box">
-            <div class="articles__card">
-              <img src="/images/home/image 5.png" alt="" />
-              <div class="articles__text">
-                <p>05.03.2021</p>
-                <h5>
-                  Режим использования масок и перчаток на территории магазинов
-                </h5>
-                <h6>
-                  Подробная информация о режимах использования масок и перчаток
-                  на территории магазинов "ЛЕНТА". Информация обновляется каждый
-                  будний день.
-                </h6>
-                <button>Подробнее</button>
+              <div class="discount__card">
+                <div class="discount__card--img">
+                  <img src="./images/home/img.svg" alt="" />
+                </div>
+                <div class="discount__card--paying">
+                  <p class="paying__bold--style">
+                    44,50 ₽ <br />
+                    <span>С картой</span>
+                  </p>
+                </div>
+                <div class="discount__card--text">
+                  <p>Комбайн КЗС-1218 «ДЕСНА-ПОЛЕСЬЕ GS12»</p>
+                </div>
+                <div class="discount__card--rating">
+                  <img src="./images/home/rating.png" alt="" />
+                </div>
+                <div class="discount__card--btn">
+                  <button>В корзину</button>
+                </div>
               </div>
-            </div>
-            <div class="articles__card">
-              <img src="/images/home/image 5 (1).png" alt="" />
-              <div class="articles__text">
-                <p>05.03.2021</p>
-                <h5>
-                  Режим использования масок и перчаток на территории магазинов
-                </h5>
-                <h6>
-                  Подробная информация о режимах использования масок и перчаток
-                  на территории магазинов "ЛЕНТА". Информация обновляется каждый
-                  будний день.
-                </h6>
-                <button>Подробнее</button>
-              </div>
-            </div>
-            <div class="articles__card">
-              <img src="/images/home/image 5 (2).png" alt="" />
-              <div class="articles__text">
-                <p>05.03.2021</p>
-                <h5>
-                  Режим использования масок и перчаток на территории магазинов
-                </h5>
-                <h6>
-                  Подробная информация о режимах использования масок и перчаток
-                  на территории магазинов "ЛЕНТА". Информация обновляется каждый
-                  будний день.
-                </h6>
-                <button>Подробнее</button>
+              <div class="discount__card">
+                <div class="discount__card--img">
+                  <img src="./images/home/img.svg" alt="" />
+                </div>
+                <div class="discount__card--paying">
+                  <p class="paying__bold--style">
+                    44,50 ₽ <br />
+                    <span>С картой</span>
+                  </p>
+                </div>
+                <div class="discount__card--text">
+                  <p>Комбайн КЗС-1218 «ДЕСНА-ПОЛЕСЬЕ GS12»</p>
+                </div>
+                <div class="discount__card--rating">
+                  <img src="./images/home/rating.png" alt="" />
+                </div>
+                <div class="discount__card--btn">
+                  <button>В корзину</button>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-      </section>
-    </main>
-    <footer>
-      <div class="footer__container">
-        <div class="footer__nav">
-          <div class="footer__links">
-            <a href="./home.html">
-              <img src="/images/home/footer__logo.svg" alt="" />
-            </a>
-            <ul>
-              <li><a href="./aboutUs.html"> О компании </a></li>
-              <li><a href="./contact.html">Контакты</a></li>
-              <li><a href="./vacanse.html">Вакансии</a></li>
-              <li><a href="">Статьи</a></li>
-              <li><a href="">Политика обработки персональных данных</a></li>
-            </ul>
-          </div>
-          <div class="footer__socials">
-            <a href="">
-              <img src="./images/home/instagram.svg" alt="" />
-            </a>
-            <a href="">
-              <img src="./images/home/vkontakte.svg" alt="" />
-            </a>
-            <a href="">
-              <img src="./images/home/facebook.svg" alt="" />
-            </a>
-            <a href="">
-              <img src="./images/home/ok.svg" alt="" />
-            </a>
-            <div class="phone__box">
-              <img src="./images/home/phone.svg" alt="" />
-              <p>8 800 777 33 33</p>
+        </section>
+        <section class="discount buying">
+          <div class="discount__container">
+            <div class="discount__title">
+              <div class="discount__title--heading">
+                <h6>Покупали раньше</h6>
+              </div>
+              <div class="discount__title--link">
+                <a href="./allProducts.html"> Все продукты </a>
+                <img src="./images/home/chevron-right.png" alt="" />
+              </div>
+            </div>
+            <div class="discount__box">
+              <div class="discount__card">
+                <div class="discount__card--img">
+                  <img src="./images/home/img.svg" alt="" />
+                </div>
+                <div class="discount__card--paying">
+                  <p class="paying__bold--style">
+                    44,50 ₽ <br />
+                    <span>С картой</span>
+                  </p>
+                </div>
+                <div class="discount__card--text">
+                  <p>Комбайн КЗС-1218 «ДЕСНА-ПОЛЕСЬЕ GS12»</p>
+                </div>
+                <div class="discount__card--rating">
+                  <img src="./images/home/rating.png" alt="" />
+                </div>
+                <div class="discount__card--btn">
+                  <button>В корзину</button>
+                </div>
+              </div>
+              <div class="discount__card">
+                <div class="discount__card--img">
+                  <img src="./images/home/img.svg" alt="" />
+                </div>
+                <div class="discount__card--paying">
+                  <p class="paying__bold--style">
+                    44,50 ₽ <br />
+                    <span>С картой</span>
+                  </p>
+                </div>
+                <div class="discount__card--text">
+                  <p>Комбайн КЗС-1218 «ДЕСНА-ПОЛЕСЬЕ GS12»</p>
+                </div>
+                <div class="discount__card--rating">
+                  <img src="./images/home/rating.png" alt="" />
+                </div>
+                <div class="discount__card--btn">
+                  <button>В корзину</button>
+                </div>
+              </div>
+              <div class="discount__card">
+                <div class="discount__card--img">
+                  <img src="./images/home/img.svg" alt="" />
+                </div>
+                <div class="discount__card--paying">
+                  <p class="paying__bold--style">
+                    44,50 ₽ <br />
+                    <span>С картой</span>
+                  </p>
+                </div>
+                <div class="discount__card--text">
+                  <p>Комбайн КЗС-1218 «ДЕСНА-ПОЛЕСЬЕ GS12»</p>
+                </div>
+                <div class="discount__card--rating">
+                  <img src="./images/home/rating.png" alt="" />
+                </div>
+                <div class="discount__card--btn">
+                  <button>В корзину</button>
+                </div>
+              </div>
+              <div class="discount__card">
+                <div class="discount__card--img">
+                  <img src="./images/home/img.svg" alt="" />
+                </div>
+                <div class="discount__card--paying">
+                  <p class="paying__bold--style">
+                    44,50 ₽ <br />
+                    <span>С картой</span>
+                  </p>
+                </div>
+                <div class="discount__card--text">
+                  <p>Комбайн КЗС-1218 «ДЕСНА-ПОЛЕСЬЕ GS12»</p>
+                </div>
+                <div class="discount__card--rating">
+                  <img src="./images/home/rating.png" alt="" />
+                </div>
+                <div class="discount__card--btn">
+                  <button>В корзину</button>
+                </div>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="footer__author">
-          <div class="author__box">
-            <p>Дизайн</p>
-            <img src="./images/home/logo-zasovskiy-small-black.png" alt="" />
+        </section>
+        <section class="special__program">
+          <div class="special__program--container">
+            <div class="special__program--title">
+              <h6>Специальные предложения</h6>
+            </div>
+            <div class="special__program--box">
+              <div class="special__program__card">
+                <div class="sp__card--text">
+                  <h6>Оформите карту «Северяночка»</h6>
+                  <p>И получайте бонусы при покупке в магазинах и на сайте</p>
+                </div>
+                <div class="sp__card--img">
+                  <img src="./images/home/Карта лояльности-10 1.png" alt="" />
+                </div>
+              </div>
+              <div class="special__program__card modify__card">
+                <div class="sp__card--text">
+                  <h6>Покупайте акционные товары</h6>
+                  <p>И получайте вдвое больше бонусов</p>
+                </div>
+                <div class="sp__card--img">
+                  <img src="./images/home/73 1.png" alt="" />
+                </div>
+              </div>
+            </div>
           </div>
-        </div>
+        </section>
       </div>
-    </footer>
+    </main>
   </body>
 </html>
